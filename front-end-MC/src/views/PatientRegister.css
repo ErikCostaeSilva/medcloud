@@ -3,12 +3,12 @@
     padding:0;
     box-sizing:border-box;
     outline:none;
-    list-style:none;
+    
 }
 input{
     height: 45px;
-    border-radius: 8px;
-    border: 1px solid #8b8080;
+    border-radius: 10px;
+    border: 1px solid #8a7f7f;
     font-size: 0.9rem;
     padding-left: 15px;
 }
