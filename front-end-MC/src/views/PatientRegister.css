@@ -11,3 +11,15 @@ input{
     font-size: 0.9rem;
     padding-left: 15px;
 }
+#numberAddress{
+    width:30%;
+    text-align:center;
+    padding:0;
+}
+@media(max-width:1000px){
+    #numberAddress{
+        width:60%;
+        text-align:center;
+        padding:0;
+    }
+}
