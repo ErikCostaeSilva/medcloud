@@ -51,11 +51,11 @@ function PatientRegister() {
                     return true;
                 }
             } catch (e) {
-                setAlert(["Ocorreu um erro ao tentarmos cadastrar o usuário."])
+                setAlert(["Ocorreu um erro ao tentarmos cadastrar o usuário."]);
                 return true;
             }
         } catch (e) {
-            setAlert(["CEP não pode ser encontrado."])
+            setAlert(["CEP não pode ser encontrado."]);
             return true;
         }
     };
@@ -111,7 +111,7 @@ function PatientRegister() {
         }
         return;
         }catch(e){
-            setAlert(["Paciente não pôde ser encontrado."])
+            setAlert(["Paciente não pôde ser encontrado."]);
         }
     }
     async function updateData(event) {
